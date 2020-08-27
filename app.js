@@ -10,7 +10,7 @@ app.get("/madhuker", (req, res) => {
 });
 
 app.get("/purushottam", (req, res) => {
-  res.send("madhuker tho chalagatam vadhu");
+  res.send("purushottam tho chalagatam vadhu");
 });
 
 //hello there testing

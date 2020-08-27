@@ -5,7 +5,9 @@ app.get("/", (req, res) => {
   res.send("Updated");
 });
 
-const port = process.env.port || 3000;
-app.listen(port, () => {
-  console.log("Wazzappppp");
+app.get("/madhuker", (req, res) => {
+  res.send("madhuker tho chalagatam vadhu");
 });
+
+const port = process.env.port || 3000;
+app.listen(port, () => {});

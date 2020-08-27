@@ -9,6 +9,10 @@ app.get("/madhuker", (req, res) => {
   res.send("madhuker tho chalagatam vadhu");
 });
 
+app.get("/purushottam", (req, res) => {
+  res.send("madhuker tho chalagatam vadhu");
+});
+
 //hello there testing
 
 const port = process.env.port || 3000;
